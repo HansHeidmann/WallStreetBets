@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: 14;
+}
+
+header {
+    padding: 10px;
+}
+aside {
+    float:left;
+    padding: 10px;
+}
+
+main {
+    padding: 10px;
+}
+
+footer {
+    padding: 10px;
+}
