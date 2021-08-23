@@ -1,21 +1,67 @@
 body {
-    background-color: black;
-    color: white;
-    font-size: 14;
+    background-color: white;
+    color: black;
+    font-size: 20px;
 }
 
 header {
-    padding: 10px;
+    width: 100%;
+    position: fixed;
+    text-align: left;
+    margin: 20px;
 }
-aside {
-    float:left;
-    padding: 10px;
+nav {
+    background-color: #1944b0;
+    padding:20px;
 }
 
 main {
-    padding: 10px;
+    width: 70%;
+    text-align: center;
+    //margin: auto;
+    vertical-align: top;
+    display: inline-block;
+}
+
+aside {
+    position: fixed;
+    padding-top: 100px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.panelAd {
+    padding: 20px;
+    background-color: #8097d3;
 }
 
 footer {
-    padding: 10px;
+    height: 50px;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.infoBox {
+    height: 150px;
+    background-color: #6682ca;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.stockBox {
+    height: 300px;
+    color: green;
+    background-color: white;
+    padding: 20px;
+}
+.stockBoxContainer {
+    background-color: #6682ca;
+    margin: 20px;
+    padding: 20px;
 }
