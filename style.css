@@ -8,15 +8,20 @@ header {
     width: 100%;
     position: fixed;
     text-align: left;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
+
 nav {
     background-color: #1944b0;
     padding:20px;
+    border-radius: 20px;
 }
 
 main {
-    width: 70%;
+    width: 80%;
     text-align: center;
     //margin: auto;
     vertical-align: top;
@@ -32,7 +37,8 @@ aside {
 
 .panelAd {
     padding: 20px;
-    background-color: #8097d3;
+    background-color: #ccd5ed;
+    border-radius: 20px;
 }
 
 footer {
@@ -46,12 +52,18 @@ footer {
 
 .infoBox {
     height: 150px;
-    background-color: #6682ca;
+    background-color: white;
+    padding: 20px;
+}
+
+.infoBoxContainer {
+    background-color: #ccd5ed;
     margin-top: 100px;
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
     padding: 20px;
+    border-radius: 20px;
 }
 
 .stockBox {
@@ -60,8 +72,10 @@ footer {
     background-color: white;
     padding: 20px;
 }
+
 .stockBoxContainer {
-    background-color: #6682ca;
+    background-color: #ccd5ed;
     margin: 20px;
     padding: 20px;
+    border-radius: 20px;
 }
