@@ -46,16 +46,15 @@ function addJSON() {
 
     function populateDivs(arr) {
         for (let i=0; i<arr.length; i++) {
-            let divID = "stockBox" + `${i}`;
+            let divID = "stockBox" + `${i}`; // not used 
             let divTickerBoxStyle = "background-color:#002fa7; color:white; font-size:40px; border-radius:10px; padding:10px; margin-left:25%; margin-right:25%";
-            let divHTML = divID + '<br>' +
-                            '<div style="' + divTickerBoxStyle + '">' +
+            let divHTML =   '<div style="' + divTickerBoxStyle + '">' +
                                 arr[i].ticker +
                             '</div>' +
                             'STOCK: ' + arr[i].ticker + '<br>' +
                             'SENTIMENT: ' + arr[i].sentiment + '<br>' +
                             'SCORE: ' + arr[i].sentiment_score + '<br>' +
-                            'COMMENTS: ' + arr[i].no_of_comments
+                            'COMMENTS: ' + arr[i].no_of_comments;
 
             document.getElementById(divID).innerHTML = divHTML;
         }

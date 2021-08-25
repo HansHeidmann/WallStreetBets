@@ -1,7 +1,7 @@
 body {
     background-color: #8097d3;
     color: black;
-    font-size: 20px;
+    font-size: 30px;
     margin: 0;
     padding: 0;
 }
@@ -37,35 +37,15 @@ main {
     display: inline-block;
 }
 
-aside {
-    position: fixed;
-    vertical-align: top;
-    display: inline-block;
-    width: 35%;
-    padding-top: 80px;
-    margin-right: 20px;
+h1 {
+    margin: 0px;
 }
-
-.panelAd {
-    padding: 20px;
-    background-color: #b3c1e5;
-    border-radius: 10px;
-}
-
-footer {
-    height: 50px;
-    text-align: left;
-    margin-top: 0px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
 .infoBox {
-    height: 150px;
+    //height: 150px;
     background-color: white;
     padding: 20px;
     border-radius: 10px;
+    //font-size: 50%;
 }
 
 .infoBoxContainer {
@@ -92,4 +72,28 @@ footer {
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
+}
+
+aside {
+    position: fixed;
+    vertical-align: top;
+    display: inline-block;
+    width: 35%;
+    padding-top: 80px;
+    margin-right: 20px;
+}
+
+.panelAd {
+    padding: 20px;
+    background-color: #b3c1e5;
+    border-radius: 10px;
+}
+
+footer {
+    height: 50px;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
