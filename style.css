@@ -1,27 +1,36 @@
 body {
-    background-color: white;
+    background-color: #8097d3;
     color: black;
     font-size: 20px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-    width: 100%;
+    width: 110%;
     position: fixed;
     text-align: left;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-top: -5px;
+    //margin-bottom: 20px;
+    margin-left: -10px;
+    //margin-right: 20px;
 }
 
 nav {
     background-color: #1944b0;
-    padding:20px;
-    border-radius: 20px;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    //border-radius: 10px;
+}
+
+nav a {
+    color: white;
 }
 
 main {
-    width: 80%;
+    width: 60%;
     text-align: center;
     //margin: auto;
     vertical-align: top;
@@ -30,15 +39,17 @@ main {
 
 aside {
     position: fixed;
-    padding-top: 100px;
     vertical-align: top;
     display: inline-block;
+    width: 35%;
+    padding-top: 80px;
+    margin-right: 20px;
 }
 
 .panelAd {
     padding: 20px;
-    background-color: #ccd5ed;
-    border-radius: 20px;
+    background-color: #b3c1e5;
+    border-radius: 10px;
 }
 
 footer {
@@ -54,28 +65,31 @@ footer {
     height: 150px;
     background-color: white;
     padding: 20px;
+    border-radius: 10px;
 }
 
 .infoBoxContainer {
-    background-color: #ccd5ed;
-    margin-top: 100px;
+    background-color: #3359b9;
+    margin-top: 80px;
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .stockBox {
     height: 300px;
-    color: green;
+    color: blue;
+    text-align: center;
     background-color: white;
     padding: 20px;
+    border-radius: 10px;
 }
 
 .stockBoxContainer {
     background-color: #ccd5ed;
     margin: 20px;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
